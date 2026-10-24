@@ -1,0 +1,14 @@
+{
+  "row_margins": {
+    "docs": 30,
+    "search": 70
+  },
+  "column_margins": {
+    "download": 20,
+    "other": 80
+  },
+  "focus": {
+    "row": "docs",
+    "column": "download"
+  }
+}

@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "referrer-attribution-bounds"
+version = "0.1.0a1"
+description = "FR: Borner l’attribution possible des visites quand seules les marges sont connues | EN: Bound possible visit attribution when only aggregate margins are known | ES: Acotar atribución de visitas cuando solo se conocen marginales agregados"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+referrer-attribution-bounds = "referrer_attribution_bounds.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["referrer_attribution_bounds*"]

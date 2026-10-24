@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Borner l’attribution possible des visites quand seules les marges sont connues', 'en': 'Bound possible visit attribution when only aggregate margins are known', 'es': 'Acotar atribución de visitas cuando solo se conocen marginales agregados'}
